@@ -1,0 +1,28 @@
+body {
+    padding: 100px 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    background: rgb(201,174,219);
+    background: linear-gradient(90deg, rgba(201,174,219,1) 0%, rgba(168,255,212,1) 100%);
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#inpt-amount {
+    border: 1px solid black;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    width: 100px;
+    margin: 1rem 0 3rem 0;
+}
+
+.currency-error {
+    color: red;
+}
